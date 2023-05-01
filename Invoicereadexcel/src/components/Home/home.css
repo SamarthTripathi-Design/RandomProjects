@@ -1,0 +1,71 @@
+.home__form-div {
+  position: relative;
+  margin-bottom: var(--m-3);
+  height: 4rem;
+  width: 20rem;
+}
+
+/* .home__form-excel {
+  max-width: 10rem;
+} */
+
+.excel__container {
+  display: flex;
+}
+
+.home__form-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background: none;
+  color: var(--text-color);
+  outline: none;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  z-index: 1;
+}
+
+.home__form-tag {
+  position: absolute;
+  top: -0.75rem;
+  left: 1.25rem;
+  font-size: var(--smaller-font-size);
+  padding: 0.25rem;
+  background-color: var(--body-color);
+  z-index: 10;
+}
+
+.home__form-select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background: none;
+  color: var(--text-color);
+  outline: none;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  z-index: 1;
+}
+
+.home__form-error {
+  position: absolute;
+  top: 4rem;
+  left: 1.2rem;
+  color: var(--error-color);
+}
+.home__form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.required {
+  color: var(--error-color);
+}

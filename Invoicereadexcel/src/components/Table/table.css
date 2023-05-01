@@ -1,0 +1,14 @@
+.value__chosen-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.value__chosen-container {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.value__chosen-value {
+  color: var(--text-color);
+  text-align: center;
+}
